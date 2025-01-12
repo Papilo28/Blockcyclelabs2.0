@@ -1,0 +1,77 @@
+Block cycle.org is the website domain
+Blockcycle is the site title
+
+pages:
+Blockcycle (Homepage)
+Team (Blockcycle.org/team)
+About (Blockcycle.org/about)
+Affiliates (Blockcycle.org/affiliates)
+
+Objective:
+Organize the files in the correct hierarchy so that the weebsite can be hosted on vercel in a single project
+
+*Edit all site titles and files to Blockcycle
+
+
+Chatgpt guide:
+
+Blockcycle-static/
+│
+├── Team.html
+├── About.html
+├── OtherPage.html
+│
+├── css/
+│   ├── admin-bar.min.css
+│   ├── other-styles.css
+│
+├── js/
+│   ├── a11y.min.js
+│   ├── other-scripts.js
+│
+├── images/
+│   ├── logo.png
+│   ├── other-image.jpg
+│
+└── assets/
+    ├── font.woff
+    ├── icon.svg
+
+
+
+
+
+To simplify deployment, consolidate your assets into one folder hierarchy. Here’s how:
+
+Create a Root Folder:
+
+Name it something like Blockcycle-static.
+Organize Subfolders: Inside Blockcycle-static, create the following subfolders:
+
+css: For CSS files.
+js: For JavaScript files.
+images: For images.
+assets: For any other files (e.g., fonts).
+Move Files:
+
+Move all CSS files (e.g., admin-bar.min.css) into the css folder.
+Move all JavaScript files (e.g., a11y.min.js) into the js folder.
+Move images (e.g., .jpg, .png, .gif) into the images folder.
+Move any other files (e.g., .woff, .svg) into the assets folder.
+Update HTML Links: Update the paths in your HTML files to reflect the new structure. For example:
+
+html
+Copy code
+<!-- Before -->
+<link rel="stylesheet" href="Team_files/admin-bar.min.css">
+<script src="Team_files/a11y.min.js"></script>
+<img src="Team_files/logo.png" alt="Logo">
+
+<!-- After -->
+<link rel="stylesheet" href="css/admin-bar.min.css">
+<script src="js/a11y.min.js"></script>
+<img src="images/logo.png" alt="Logo">
+Place HTML Files in Root:
+
+Move Team.html, About.html, and all other page HTML files into the root of Blockcycle-static.
+
