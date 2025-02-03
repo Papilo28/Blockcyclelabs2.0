@@ -1,8 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/about", "destination": "/About.html" },
-    { "source": "/affiliates", "destination": "/Affiliates.html" },
-    { "source": "/policy", "destination": "/Block Cycle Labs – Policy_Terms.html" },
-    { "source": "/team", "destination": "/Team.html" }
+  "redirects": [
+    { "source": "/about", "destination": "/About.html", "permanent": true },
+    { "source": "/affiliates", "destination": "/Affiliates.html", "permanent": true },
+    { "source": "/policy", "destination": "/Block Cycle Labs — Policy_Terms.html", "permanent": true },
+    { "source": "/team", "destination": "/Team.html", "permanent": true }
   ]
 }
