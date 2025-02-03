@@ -2,7 +2,7 @@
   "rewrites": [
     { "source": "/About", "destination": "/About.html" },
     { "source": "/Affiliates", "destination": "/Affiliates.html" },
-    { "source": "/Block-Cycle-Labs-Policy-Terms", "destination": "/Block Cycle Labs-Policy-Terms.html" },
+    { "source": "/Block-Cycle-Labs-Policy-Terms", "destination": "/Block Cycle Labs – Policy_Terms.html" },
     { "source": "/Team", "destination": "/Team.html" }
   ]
 }
