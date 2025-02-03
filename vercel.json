@@ -1,8 +1,8 @@
 {
   "rewrites": [
-    { "source": "/About", "destination": "/About.html" },
-    { "source": "/Affiliates", "destination": "/Affiliates.html" },
-    { "source": "/Block-Cycle-Labs-Policy-Terms", "destination": "/Block Cycle Labs – Policy_Terms.html" },
-    { "source": "/Team", "destination": "/Team.html" }
+    { "source": "/about", "destination": "/About.html" },
+    { "source": "/affiliates", "destination": "/Affiliates.html" },
+    { "source": "/policy", "destination": "/Block Cycle Labs – Policy_Terms.html" },
+    { "source": "/team", "destination": "/Team.html" }
   ]
 }
