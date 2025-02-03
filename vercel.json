@@ -1,8 +1,9 @@
 {
-    "rewrites": [
-      { "source": "/about", "destination": "/About.html" },
-      { "source": "/affiliates", "destination": "/Affiliates.html" },
-      { "source": "/team", "destination": "/Team.html" }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/About", "destination": "/About_files/Index" },
+    { "source": "/Affiliates", "destination": "/Affiliates_files/Index" },
+    { "source": "/ankaramom.com", "destination": "/ankaramom.com_files/Index" },
+    { "source": "/Block-Cycle-Labs-Policy-Terms", "destination": "/Block Cycle Labs – Policy_Terms_files/Index" },
+    { "source": "/Team", "destination": "/Team_files/Index" }
+  ]
+}
